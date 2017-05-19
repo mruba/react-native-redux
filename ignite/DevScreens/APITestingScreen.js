@@ -12,6 +12,7 @@ import styles from './Styles/APITestingScreenStyles'
 
 // API buttons here:
 const endpoints = [
+  { label: 'Get Faces', endpoint: 'getFaces' },
   { label: 'Github Root', endpoint: 'getRoot' },
   { label: 'Github Rate Limit', endpoint: 'getRate' },
   { label: 'Search User (gantman)', endpoint: 'getUser', args: ['gantman'] },
